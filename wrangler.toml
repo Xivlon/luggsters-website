@@ -10,7 +10,7 @@ cwd = "."
 bucket = "."
 entry-point = "."
 include = ["*.html", "assets/**/*"]
-exclude = ["node_modules", "attached_assets", "MembershipPro"]
+exclude = ["node_modules"]
 
 [env.production]
 name = "luggsters-website-production"

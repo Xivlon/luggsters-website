@@ -32,14 +32,10 @@ The application employs a hybrid architecture approach:
 ### Core Application Structure
 ```
 /
-├── index1.html                 # Static landing page
-├── replit1.md                  # Previous documentation
-├── MembershipPro/              # Full-stack membership portal
-│   ├── client/                 # React frontend
-│   ├── server/                 # Express.js backend
-│   ├── shared/                 # Shared schemas and types
-│   └── migrations/             # Database migrations
-└── attached_assets/            # Configuration and asset files
+├── index.html                  # Static landing page
+├── assets/                     # Static assets (images, videos)
+├── package.json                # Project dependencies
+└── replit.md                   # Project documentation
 ```
 
 ### Database Schema
